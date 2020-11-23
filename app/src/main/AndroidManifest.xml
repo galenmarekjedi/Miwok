@@ -11,16 +11,20 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".Phrases"
-            android:label="@string/phrases"></activity>
+            android:label="@string/phrases"
+            android:parentActivityName=".MainActivity"></activity>
         <activity
             android:name=".Colors"
-            android:label="@string/colors"></activity>
+            android:label="@string/colors"
+            android:parentActivityName=".MainActivity"></activity>
         <activity
             android:name=".Family_Members"
-            android:label="@string/family_members"></activity>
+            android:label="@string/family_members"
+            android:parentActivityName=".MainActivity"></activity>
         <activity
             android:name=".Numbers"
-            android:label="@string/numbers"></activity>
+            android:label="@string/numbers"
+            android:parentActivityName=".MainActivity"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
